@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/Emmawkh/portfolio-B3#readme",
   "dependencies": {
+    "bootstrap": "^5.2.0",
     "sass": "^1.53.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.6.2"
   }
 }
