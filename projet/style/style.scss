@@ -1,7 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 // STYLE ELEMENTS GLOBAUX //
+body{
+    font-family: 'Red Hat Display', sans-serif !important;
+}
+
 .container-fluid{
     padding-left: 50px !important;
     padding-right: 50px !important;
+}
+
+.row{
+    width: 100% !important;
+    margin: 0px !important;
+}
+
+h1{
+    font-size: 4rem !important;
+}
+
+h1, h2, h3{
+    text-transform: uppercase;
+    font-weight: 300 !important;
+    strong{
+        font-weight: 900 !important;
+        color: var(--bs-primary);
+    }
 }
 
 p{
@@ -33,34 +57,111 @@ p{
     }
 }
 
+// HOME //
+
+.home_header_wrapper{
+    height: 79vh;
+    background-image: url(../img/mockup.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home_gallery_grid_wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(200px, auto);
+
+    .home_gallery_grid_one{
+        grid-column: 1 / 2;
+        grid-row: 1 / 3;
+    }
+    .home_gallery_grid_two{
+        grid-column: 2 / 3;
+        grid-row: 1 / 4;
+    }
+    .home_gallery_grid_three{
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+    .home_gallery_grid_four{
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+    .home_gallery_grid_five{
+        grid-column: 3 / 4;
+        grid-row: 2 / 4;
+    }
+}
+
+textarea{
+    min-height: 10rem !important;
+}
+
+// PAGE ABOUT ME //
+
+.page_aboutme_header_img_wrapper{
+    height: 100%;
+        width: 100%;
+        background-image: url(../img/mockup.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
+.about_section_link_wrapper{
+    &:hover{
+        .about_section_link{
+            width: 40px !important;
+            height: 10px !important;
+        }  
+    }
+    .about_section_link{
+        width: 10px !important;
+        height: 10px !important;
+    }
+}
+
+.skill_img_wrapper{
+    height: 80px;
+    width: 80px;
+}
+
+.skill_bar{
+    height: 8px;
+}
+
+.badge_skill{
+    width: 120px !important;
+    height: 120px;
+}
+
+// PAGE PROJECT //
+.project_header_wrapper{
+    height: 79vh;
+    background-image: url(../img/mockup.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fa-solid:hover{
+    font-size: 3rem !important;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// PAGE CONTACT //
+.page_contact_wrapper{
+    .page_contact_img_wrapper{
+        height: 100%;
+        width: 100%;
+        background-image: url(../img/mockup.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
 
 
 @import "../style/abstracts/variables";
