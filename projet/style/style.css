@@ -53,7 +53,7 @@ p {
 
 .home_header_wrapper {
   height: 79vh;
-  background-image: url(../img/mockup.png);
+  background-image: url(../img/header.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -68,6 +68,10 @@ p {
 .home_gallery_grid_wrapper .home_gallery_grid_one {
   grid-column: 1/2;
   grid-row: 1/3;
+  background-image: url(../img/project-portfolio.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .home_gallery_grid_wrapper .home_gallery_grid_two {
   grid-column: 2/3;
@@ -93,7 +97,7 @@ textarea {
 .page_aboutme_header_img_wrapper {
   height: 100%;
   width: 100%;
-  background-image: url(../img/mockup.png);
+  background-image: url(../img/img-aboutme.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -109,8 +113,32 @@ textarea {
 }
 
 .skill_img_wrapper {
-  height: 80px;
-  width: 80px;
+  height: 100px;
+  width: 100px;
+}
+.skill_img_wrapper.photoshop {
+  background-image: url(../img/picto-photoshop.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.skill_img_wrapper.illustrator {
+  background-image: url(../img/picto-illustrator.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.skill_img_wrapper.xd {
+  background-image: url(../img/picto-xd.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.skill_img_wrapper.developpement {
+  background-image: url(../img/picto-dev.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .skill_bar {
@@ -122,9 +150,51 @@ textarea {
   height: 120px;
 }
 
+.card {
+  height: 400px !important;
+  border: none !important;
+}
+
+.card_hobbie_book {
+  background-image: url(../img/img-book.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card_hobbie_videogames {
+  background-image: url(../img/img-videogames.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card_hobbie_music {
+  background-image: url(../img/img-music.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card_hobbie_cooking {
+  background-image: url(../img/img-cooking.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.page_contact_wrapper .page_contact_img_wrapper {
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/img-contact.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .project_header_wrapper {
   height: 79vh;
-  background-image: url(../img/mockup.png);
+  background-image: url(../img/header.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -132,15 +202,6 @@ textarea {
 
 .fa-solid:hover {
   font-size: 3rem !important;
-}
-
-.page_contact_wrapper .page_contact_img_wrapper {
-  height: 100%;
-  width: 100%;
-  background-image: url(../img/mockup.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 /*!
