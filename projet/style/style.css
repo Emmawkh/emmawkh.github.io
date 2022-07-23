@@ -17,6 +17,11 @@ body {
 h1, .h1 {
   font-size: 4rem !important;
 }
+@media screen and (max-width: 768px) {
+  h1, .h1 {
+    font-size: 3rem !important;
+  }
+}
 
 h1, .h1, h2, .h2, h3, .h3 {
   text-transform: uppercase;
@@ -58,6 +63,16 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
 }
+@media screen and (max-width: 992px) {
+  .home_header_wrapper {
+    background-image: url(../img/header-tablette.png);
+  }
+}
+@media screen and (max-width: 768px) {
+  .home_header_wrapper {
+    background-image: url(../img/header-mobile.png);
+  }
+}
 
 .home_gallery_grid_wrapper {
   display: grid;
@@ -89,6 +104,19 @@ p {
   grid-column: 3/4;
   grid-row: 2/4;
 }
+.home_gallery_grid_wrapper a:hover {
+  box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.4) !important;
+}
+@media screen and (max-width: 992px) {
+  .home_gallery_grid_wrapper {
+    grid-auto-rows: minmax(150px, auto);
+  }
+}
+@media screen and (max-width: 768px) {
+  .home_gallery_grid_wrapper {
+    grid-auto-rows: minmax(70px, auto);
+  }
+}
 
 textarea {
   min-height: 10rem !important;
@@ -101,6 +129,11 @@ textarea {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+@media screen and (max-width: 992px) {
+  .page_aboutme_header_img_wrapper {
+    height: 30vh;
+  }
 }
 
 .about_section_link_wrapper:hover .about_section_link {
@@ -199,9 +232,19 @@ textarea {
   background-size: cover;
   background-repeat: no-repeat;
 }
+@media screen and (max-width: 992px) {
+  .project_header_wrapper {
+    background-image: url(../img/header-tablette.png);
+  }
+}
+@media screen and (max-width: 768px) {
+  .project_header_wrapper {
+    background-image: url(../img/header-mobile.png);
+  }
+}
 
 .fa-solid:hover {
-  font-size: 3rem !important;
+  font-size: 1.1rem !important;
 }
 
 /*!
